@@ -1,0 +1,8 @@
+- https://jvns.ca/
+- https://www.theverge.com/
+- https://www.joshwcomeau.com/
+- [https://www.ystrickler.com/](https://www.ystrickler.com/)
+- https://tante.cc/
+- [https://pluralistic.net/](https://pluralistic.net/)
+- https://www.taniarascia.com/
+- https://wattenberger.com/

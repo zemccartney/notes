@@ -1,0 +1,10 @@
+- [https://www.mushroomcoloratlas.com/mushrooms/](https://www.mushroomcoloratlas.com/mushrooms/)
+- [https://www.mayerowitz.io/blog/mario-meets-pareto](https://www.mayerowitz.io/blog/mario-meets-pareto)
+- [https://departuremono.com/](https://departuremono.com/)
+- [https://www.sacred.computer/](https://www.sacred.computer/)
+- [https://phosphoricons.com/](https://phosphoricons.com/)
+- https://lynnandtonic.com/archive/
+	- https://lynnandtonic.com/archive/2022/
+	- https://lynnandtonic.com/thoughts/entries/ten-years-of-a-single-div/
+	- https://codepen.io/lynnandtonic/pen/LYGjqOo
+	- https://css-tricks.com/very-extremely-practical-css-art/
