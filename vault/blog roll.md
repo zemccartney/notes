@@ -6,3 +6,5 @@
 - [https://pluralistic.net/](https://pluralistic.net/)
 - https://www.taniarascia.com/
 - https://wattenberger.com/
+- https://daringfireball.net/
+- https://charity.wtf/

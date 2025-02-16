@@ -3,6 +3,7 @@ https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development
 
 ## TODOs to publish
 - [ ] link all resources as relevant
+- [ ] integrate setup notes at bottom
 - [ ] fill in gitconfig section with where you landed 
 
 
@@ -93,3 +94,38 @@ Intent:
 https://www.youtube.com/watch?v=eKy3Z9l9Mi0&t=92s
 https://www.lg.com/us/monitors/lg-34wq500-b-ultrawide-monitor
 
+## Mac setup notes
+
+- ran into issue with fnm, turned out to be incorrect installation path
+	- https://github.com/Schniz/fnm/issues/824
+
+### git
+
+- ended up trying https://difftastic.wilfred.me.uk/git.html
+	- per https://github.com/ai/environment/blob/main/gitconfig 
+	- looks like won't work with astro, though
+- for ssh https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
+- rectangle
+	- ok, kind of get it after using it, seems pretty cool
+	- remember to set as login itme
+	- curious how often I'll actually end up using it, but nice to have
+
+### purepaste 
+
+- enabled most settings, except for list normalization
+- keep an eye on it
+
+## vs code
+
+https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+
+https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
+
+```json
+{
+  "editor.guides.bracketPairs": "active",
+  "workbench.colorTheme": "Noctis",
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 1
+}
+```

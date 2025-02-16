@@ -1,13 +1,12 @@
 ---
 tags:
   - career
+source: https://copyconstruct.medium.com/know-how-your-org-works-or-how-to-become-a-more-effective-engineer-1a3287d1f58d
+author: Cindy Sridharan
 ---
-https://copyconstruct.medium.com/know-how-your-org-works-or-how-to-become-a-more-effective-engineer-1a3287d1f58d
 
- **know how your org works (or how to become a more effective engineer)**
- *by Cindy Sridharan*
 
-**“Many engineers find it far easier to label things that don’t go their way as “politics”, as opposed to introspecting and learning the hard skills required to make better judgements. “Politics” doesn’t necessarily have to be a negative thing per se, and I suspect the near ubiquitous negative connotations attached to “politics” can be attributed to the fact that a lot of engineers aren’t the most astute when it comes to navigating these nuances. “**
+> Many engineers find it far easier to label things that don’t go their way as “politics”, as opposed to introspecting and learning the hard skills required to make better judgements. “Politics” doesn’t necessarily have to be a negative thing per se, and I suspect the near ubiquitous negative connotations attached to “politics” can be attributed to the fact that a lot of engineers aren’t the most astute when it comes to navigating these nuances.
 
 Struck me for a few reasons:
 
