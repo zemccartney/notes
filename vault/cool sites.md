@@ -9,3 +9,4 @@
 	- https://codepen.io/lynnandtonic/pen/LYGjqOo
 	- https://css-tricks.com/very-extremely-practical-css-art/
 - https://typeof.net/Iosevka/
+- https://joshcollinsworth.com/
