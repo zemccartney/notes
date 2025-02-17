@@ -1,14 +1,12 @@
-https://www.swyx.io/new-mac-setup#new-mac-setup---from-scratch
-https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development
-
-## TODOs to publish
-- [ ] link all resources as relevant
-- [ ] integrate setup notes at bottom
-- [ ] fill in gitconfig section with where you landed 
+Took inspiration / copied from:
+- https://www.swyx.io/new-mac-setup#new-mac-setup---from-scratch
+- https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development
 
 
-- [ ] disable icloud sync (in settings > apple id > icloud)
-- [ ] delete as many apple apps as allowed
+- [ ] mac os config
+	- [ ] add home folder to finder (drag into favorites)
+	- [ ] disable icloud sync (in settings > apple id > icloud)
+	- [ ] delete as many apple apps as allowed
 	- [ ] clean up dock
 - [ ] docker
 - [ ] obsidian
@@ -16,10 +14,10 @@ https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development
 	- [ ] settings
 		- [ ] enable memory saver
 	- [ ] extensions
-		- [ ] react dev tools
-		- [ ] lighthouse
-		- [ ] colorzilla
-		- [ ] wave eval tool
+		- [ ] [react dev tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+		- [ ] [lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+		- [ ] [colorzilla](https://www.colorzilla.com/chrome/)
+		- [ ] [wave eval tool]https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
 - [ ] ghostty
 	- [ ] configure
 
@@ -38,94 +36,77 @@ https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development
 	- [ ] don't forget to follow instructions to add to path (printed by brew installation)
 - [ ] Install node
 	- [ ] https://github.com/Schniz/fnm
-- [ ] ommwriter (needs to copied)
+		- [ ] on 2/15/2025: ran into issue with fnm, turned out to be incorrect installation path: https://github.com/Schniz/fnm/issues/824
+- [ ] [ommwriter](https://ommwriter.com/) (needs to copied, single installation per license)
 - [ ] git
-	- [ ] config: https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/#git ALIASES!!
-	- [ ] ssh key, add to github
-	- [ ] trying difftastic
-- [ ] mac os config
-	- [ ] add home folder to finder (drag into favorites)
+	- [ ] create ssh key, add to github: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+	- [ ] trying difftastic: https://difftastic.wilfred.me.uk/git.html
+	- [ ] config (`touch ~/.gitconfig`)
+
+```
+[user]
+  email = zemccartney@gmail.com
+  name = zemccartney
+
+[github]
+  user = zemccartney
+
+[alias]
+  a = add
+  s = status
+  c = commit
+  df = diff ':!package-lock.json'
+  dft = -c diff.external=difft df
+
+[push]
+  autoSetupRemote = true
+
+[pull]
+  ff = only
+```
+
+Sources:
+- https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/#git
+- https://github.com/ai/environment/commit/12cfa5cbe664ef217ce4af230e236f94850c2dc3
+
 - [ ] vs code
-	- [ ] install shell command
+	- [ ] install shell command (cmd pallete, search for shell command)
 	- [ ] extensions
-		- [ ] astro
-		- [ ] eslint
-		- [ ] even better TOML
-		- [ ] html-validate (or super HTML?)
-		- [ ] mdx
-		- [ ] prettier
-		- [ ] pretty typescript errors
-		- [ ] stylelint
-		- [ ] tailwind css intellisense
-		- [ ] total typescript
-		- [ ] noctis theme
-		- [ ] vs code icons
-		- [ ] https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag?
-
-- [ ] https://apps.apple.com/us/app/pure-paste/id1611378436?mt=12 
-	- [ ] doc settings used
-- [ ] https://rectangleapp.com/ 
-- [ ] linear app
-
-
-## cleanup
-
-Intent:
-- folder for things I'd be very sad to lose
-- folder for things hanging on to, but not important, just not sure what to do with them yet
-- copy up to cloudflare / some other cloud service as time allows
-
-- [x] anything from steam?
-- [x] copy ommwriter and any relevant files?
-- [x] copy over any local-only folders that are worth saving (css for js?)
-- [ ] deal with tabs
-- [x] clean off desktop
-- [x] chrome, bookmarks?
-- [x] review iCloud; anything actually useful in there? No interest in using iCloud
-- [ ] other external drive (review... consolidate into new drive)
-	- [ ] store latest timemachine backup 
-	- [ ] store p joons
-	- [ ] store jennie stories, buried in there (did those make it to drive?)
-	- [ ] keep drive around, boot up as part of regular maintenance, but otherwise, seems fine?
-- [ ] clean up google drive / stash anything from there? 
-	- [ ] store boyz materials
-- [ ] store data from phone (stash photos)
-
-https://www.youtube.com/watch?v=eKy3Z9l9Mi0&t=92s
-https://www.lg.com/us/monitors/lg-34wq500-b-ultrawide-monitor
-
-## Mac setup notes
-
-- ran into issue with fnm, turned out to be incorrect installation path
-	- https://github.com/Schniz/fnm/issues/824
-
-### git
-
-- ended up trying https://difftastic.wilfred.me.uk/git.html
-	- per https://github.com/ai/environment/blob/main/gitconfig 
-	- looks like won't work with astro, though
-- for ssh https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
-- rectangle
-	- ok, kind of get it after using it, seems pretty cool
-	- remember to set as login itme
-	- curious how often I'll actually end up using it, but nice to have
-
-### purepaste 
-
-- enabled most settings, except for list normalization
-- keep an eye on it
-
-## vs code
-
-https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
-
-https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
+		- [ ] [astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)
+		- [ ] [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+		- [ ] [even better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+		- [ ] [highlight matching tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
+		- [ ] [html-validate](https://marketplace.visualstudio.com/items?itemName=html-validate.vscode-html-validate) (or [super HTML](https://marketplace.visualstudio.com/items?itemName=LorisCro.super?)
+		- [ ] [mdx](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)
+		- [ ] [noctis theme](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
+		- [ ] [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+		- [ ] [pretty typescript errors](https://marketplace.visualstudio.com/items?itemName=YoavBls.pretty-ts-errors)
+		- [ ] [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+		- [ ] [tailwind css intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+		- [ ] [total typescript](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
+		- [ ] [vs code icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+	- [ ] install Iosevka font: https://github.com/be5invis/Iosevka/releases (followed steps here: https://support.apple.com/guide/font-book/install-and-validate-fonts-fntbk1000/mac)
+	- [ ] settings
 
 ```json
 {
   "editor.guides.bracketPairs": "active",
   "workbench.colorTheme": "Noctis",
   "workbench.iconTheme": "vscode-icons",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Iosevka, monospace",
+  "editor.fontSize": 14
 }
 ```
+
+
+- [ ] https://apps.apple.com/us/app/pure-paste/id1611378436?mt=12 
+	- [ ] settings
+		- [ ] start on login
+		- [ ] automatically clear formatting
+		- [ ] extras > everything under when clearing formatting except list normalization
+- [ ] https://rectangleapp.com/ , set as login item
+- [ ] linear app
+- [ ] vlc
+
