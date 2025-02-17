@@ -46,17 +46,15 @@ Took inspiration / copied from:
 ```
 [user]
   email = zemccartney@gmail.com
-  name = zemccartney
-
-[github]
-  user = zemccartney
+  name = Zack McCartney
 
 [alias]
   a = add
   s = status
   c = commit
-  df = diff ':!package-lock.json'
-  dft = -c diff.external=difft df
+  dl = diff ':!package-lock.json'
+  dft = -c diff.external=difft diff
+  dlt = -c diff.external=difft dl
 
 [push]
   autoSetupRemote = true
@@ -85,13 +83,16 @@ Sources:
 		- [ ] [tailwind css intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 		- [ ] [total typescript](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 		- [ ] [vs code icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+		- [ ] [colorize](https://marketplace.cursorapi.com/items?itemName=kamikillerto.vscode-colorize)
 	- [ ] install Iosevka font: https://github.com/be5invis/Iosevka/releases (followed steps here: https://support.apple.com/guide/font-book/install-and-validate-fonts-fntbk1000/mac)
 	- [ ] settings
 
 ```json
 {
   "editor.guides.bracketPairs": "active",
-  "workbench.colorTheme": "Noctis",
+  "workbench.preferredDarkColorTheme": "Noctis",
+  "workbench.preferredLightColorTheme": "Noctis Lux",
+  "window.autoDetectColorScheme": true,
   "workbench.iconTheme": "vscode-icons",
   "window.zoomLevel": 1,
   "editor.fontLigatures": true,
