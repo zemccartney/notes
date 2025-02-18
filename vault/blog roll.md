@@ -8,3 +8,4 @@
 - https://wattenberger.com/
 - https://daringfireball.net/
 - https://charity.wtf/
+- https://joshcollinsworth.com/

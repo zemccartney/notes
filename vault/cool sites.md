@@ -10,3 +10,5 @@
 	- https://css-tricks.com/very-extremely-practical-css-art/
 - https://typeof.net/Iosevka/
 - https://joshcollinsworth.com/
+- https://terkel.com/
+- https://www.rasmusnielsen.dk/

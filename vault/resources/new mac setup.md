@@ -19,6 +19,8 @@ Took inspiration / copied from:
 		- [ ] [colorzilla](https://www.colorzilla.com/chrome/)
 		- [ ] [wave eval tool]https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
 - [ ] ghostty
+	- [ ] ssh fix https://ghostty.org/docs/help/terminfo#configure-ssh-to-fall-back-to-a-known-terminfo-entry
+		- [ ] check ssh connections, add `SetEnv TERM=xterm-256color` for broken Linux sessions (manifests as backspace adding spaces)
 	- [ ] configure
 
 	From root: `mkdir -p .config/ghostty`
@@ -29,7 +31,6 @@ Took inspiration / copied from:
 	font-size = 15
 	theme = BlueDolphin
 ```
-
 
 - [ ] download logi options +, set mouse tracking and scrolling speeds to 100% (for now; b/c using logitech hardware, app is only way to change settings of devices; outright piracy, such horseshit, need to move away from logitech hardware entirely)
 - [ ] homebrew
