@@ -53,10 +53,7 @@ Took inspiration / copied from:
   a = add
   s = status
   c = commit
-  d = diff
-  dl = d ':!package-lock.json'
-  df = -c diff.external=difft d
-  dfl = -c diff.external=difft dl
+  d = -c diff.external=difft diff -- . ':!package-lock.json'
   sw = switch
 
 [push]
@@ -92,17 +89,17 @@ Sources:
 
 ```json
 {
-  "window.zoomLevel": 1,
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Noctis",
-  "workbench.preferredLightColorTheme": "Noctis Lux",
-  "workbench.iconTheme": "vscode-icons",
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Iosevka, monospace",
-  "editor.fontSize": 14,
-  "editor.guides.bracketPairs": "active",
-  "editor.minimap.enabled": false,
-  "colorize.decoration_type": "dot",
+	"window.zoomLevel": 1,
+	"window.autoDetectColorScheme": true,
+	"workbench.preferredDarkColorTheme": "Noctis",
+	"workbench.preferredLightColorTheme": "Noctis Lux",
+	"workbench.iconTheme": "vscode-icons",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Iosevka, monospace",
+	"editor.fontSize": 14,
+	"editor.guides.bracketPairs": "active",
+	"editor.minimap.enabled": false,
+	"colorize.decoration_type": "dot",
 }
 ```
 
