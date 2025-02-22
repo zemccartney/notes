@@ -5,11 +5,10 @@ tags:
   - cloudflare
 ---
 
-### TODO
-- [ ] Fix middleware typing; possible to make Cloudflare-aware?
-- [ ] Add configurable Sentry testing utilities (ways to trigger client and server-side errors, to verify integration)
+> [!todo]-
+> - [ ] #task middleware typing; possible to make Cloudflare-aware?
+> - [ ] #task configurable Sentry testing utilities (ways to trigger client and server-side errors, to verify integration)
 
---- 
 When I deployed [this site](), which is statically rendered while leveraging [Astro's server islands](https://docs.astro.build/en/guides/server-islands/) to render data-dependent components on demand, I had a time getting Sentry working server-side, through a combination of outdated / poor documentation and personal skill issues.
 
 Anyway! I'll spare the uninteresting story, here's where I landed. I'm no Sentry expert, definitely room to leverage it for more and I could still have some things wrong here, but with this setup I'm capture errors client-side and server-side:

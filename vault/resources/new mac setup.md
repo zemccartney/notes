@@ -2,6 +2,9 @@ Took inspiration / copied from:
 - https://www.swyx.io/new-mac-setup#new-mac-setup---from-scratch
 - https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development
 
+> [!todo]-
+> - [ ] #task Revisit git settings, interested in a.) `autoSetupRebase` per [this discussion](https://stackoverflow.com/questions/71768999/how-to-merge-when-you-get-error-hint-you-have-divergent-branches-and-need-to-s/71774640#71774640) b.) diff config & git pull `l` alias in https://github.com/ai/environment/blob/main/gitconfig
+
 
 - [ ] mac os config
 	- [ ] add home folder to finder (drag into favorites)
@@ -21,15 +24,12 @@ Took inspiration / copied from:
 - [ ] ghostty
 	- [ ] ssh fix https://ghostty.org/docs/help/terminfo#configure-ssh-to-fall-back-to-a-known-terminfo-entry
 		- [ ] check ssh connections, add `SetEnv TERM=xterm-256color` for broken Linux sessions (manifests as backspace adding spaces)
-	- [ ] configure
-
-	From root: `mkdir -p .config/ghostty`
-
-    Add the following:
+	- [ ] configure (From root: `mkdir -p .config/ghostty` and add the following)
     
-```sh
-	font-size = 15
-	theme = BlueDolphin
+```reference
+
+path: '@/../config/ghostty/config'
+
 ```
 
 - [ ] download logi options +, set mouse tracking and scrolling speeds to 100% (for now; b/c using logitech hardware, app is only way to change settings of devices; outright piracy, such horseshit, need to move away from logitech hardware entirely)
@@ -44,23 +44,9 @@ Took inspiration / copied from:
 	- [ ] trying difftastic: https://difftastic.wilfred.me.uk/git.html
 	- [ ] config (`touch ~/.gitconfig`)
 
-```
-[user]
-	email = zemccartney@gmail.com
-	name = Zack McCartney
-
-[alias]
-	a = add
-	s = status
-	c = commit
-	d = -c diff.external=difft diff -- . ':!package-lock.json'
-	sw = switch
-
-[push]
-	autoSetupRemote = true
-
-[pull]
-	ff = only
+```reference
+path: '@/../config/.gitconfig'
+lang: ini
 ```
 
 Sources:
@@ -88,28 +74,8 @@ Sources:
 	- [ ] install Iosevka font: https://github.com/be5invis/Iosevka/releases (followed steps here: https://support.apple.com/guide/font-book/install-and-validate-fonts-fntbk1000/mac)
 	- [ ] settings
 
-```json
-{
-	"window.autoDetectColorScheme": true,
-	"window.zoomLevel": 1,
-	"workbench.preferredDarkColorTheme": "Noctis",
-	"workbench.preferredLightColorTheme": "Noctis Lux",
-	"workbench.iconTheme": "vscode-icons",
-	"editor.fontFamily": "Iosevka, monospace",
-	"editor.fontLigatures": true,
-	"editor.fontSize": 14,
-	"editor.guides.bracketPairs": "active",
-	"editor.minimap.enabled": false,
-  	"colorize.decoration_type": "dot",
-	"highlight-matching-tag.styles": {
-	    "opening": {
-			"name": {
-				"underline": "magenta"
-			}
-		}
-	},
-	"svgPreview.autoOpen": true,
-}
+```reference
+path: '@/../config/vscode/settings.json'
 ```
 
 

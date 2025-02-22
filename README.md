@@ -1,1 +1,0 @@
-https://publish.obsidian.md/git-doc/Tips-and-Tricks (for help on gitignore)

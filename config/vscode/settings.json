@@ -1,0 +1,21 @@
+{
+	"window.autoDetectColorScheme": true,
+	"window.zoomLevel": 1,
+	"workbench.preferredDarkColorTheme": "Noctis",
+	"workbench.preferredLightColorTheme": "Noctis Lux",
+	"workbench.iconTheme": "vscode-icons",
+	"editor.fontFamily": "Iosevka, monospace",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.guides.bracketPairs": "active",
+	"editor.minimap.enabled": false,
+  	"colorize.decoration_type": "dot",
+	"highlight-matching-tag.styles": {
+	    "opening": {
+			"name": {
+				"underline": "magenta"
+			}
+		}
+	},
+	"svgPreview.autoOpen": true
+}
