@@ -92,16 +92,17 @@ Sources:
 
 ```json
 {
-  "editor.guides.bracketPairs": "active",
+  "window.zoomLevel": 1,
+  "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Noctis",
   "workbench.preferredLightColorTheme": "Noctis Lux",
-  "window.autoDetectColorScheme": true,
   "workbench.iconTheme": "vscode-icons",
-  "window.zoomLevel": 1,
   "editor.fontLigatures": true,
   "editor.fontFamily": "Iosevka, monospace",
   "editor.fontSize": 14,
-  "editor.minimap.enabled": false
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "colorize.decoration_type": "dot",
 }
 ```
 
