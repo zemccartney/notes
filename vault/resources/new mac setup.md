@@ -84,22 +84,31 @@ Sources:
 		- [ ] [total typescript](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 		- [ ] [vs code icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 		- [ ] [colorize](https://marketplace.cursorapi.com/items?itemName=kamikillerto.vscode-colorize)
+		- [ ] [svg preview](https://marketplace.cursorapi.com/items?itemName=SimonSiefke.svg-preview)
 	- [ ] install Iosevka font: https://github.com/be5invis/Iosevka/releases (followed steps here: https://support.apple.com/guide/font-book/install-and-validate-fonts-fntbk1000/mac)
 	- [ ] settings
 
 ```json
 {
-	"window.zoomLevel": 1,
 	"window.autoDetectColorScheme": true,
+	"window.zoomLevel": 1,
 	"workbench.preferredDarkColorTheme": "Noctis",
 	"workbench.preferredLightColorTheme": "Noctis Lux",
 	"workbench.iconTheme": "vscode-icons",
-	"editor.fontLigatures": true,
 	"editor.fontFamily": "Iosevka, monospace",
+	"editor.fontLigatures": true,
 	"editor.fontSize": 14,
 	"editor.guides.bracketPairs": "active",
 	"editor.minimap.enabled": false,
-	"colorize.decoration_type": "dot",
+  	"colorize.decoration_type": "dot",
+	"highlight-matching-tag.styles": {
+	    "opening": {
+			"name": {
+				"underline": "magenta"
+			}
+		}
+	},
+	"svgPreview.autoOpen": true,
 }
 ```
 
@@ -109,7 +118,7 @@ Sources:
 		- [ ] start on login
 		- [ ] automatically clear formatting
 		- [ ] extras > everything under when clearing formatting except list normalization
-- [ ] https://rectangleapp.com/ , set as login item
+- [ ] https://rectangleapp.com/ , recommended shortcuts, set as login item and to check for updates
 - [ ] linear app
 - [ ] vlc
 
