@@ -53,9 +53,11 @@ Took inspiration / copied from:
   a = add
   s = status
   c = commit
-  dl = diff ':!package-lock.json'
-  dft = -c diff.external=difft diff
-  dlt = -c diff.external=difft dl
+  d = diff
+  dl = d ':!package-lock.json'
+  df = -c diff.external=difft d
+  dfl = -c diff.external=difft dl
+  sw = switch
 
 [push]
   autoSetupRemote = true
@@ -98,7 +100,8 @@ Sources:
   "window.zoomLevel": 1,
   "editor.fontLigatures": true,
   "editor.fontFamily": "Iosevka, monospace",
-  "editor.fontSize": 14
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false
 }
 ```
 
