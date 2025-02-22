@@ -46,21 +46,21 @@ Took inspiration / copied from:
 
 ```
 [user]
-  email = zemccartney@gmail.com
-  name = Zack McCartney
+	email = zemccartney@gmail.com
+	name = Zack McCartney
 
 [alias]
-  a = add
-  s = status
-  c = commit
-  d = -c diff.external=difft diff -- . ':!package-lock.json'
-  sw = switch
+	a = add
+	s = status
+	c = commit
+	d = -c diff.external=difft diff -- . ':!package-lock.json'
+	sw = switch
 
 [push]
-  autoSetupRemote = true
+	autoSetupRemote = true
 
 [pull]
-  ff = only
+	ff = only
 ```
 
 Sources:
