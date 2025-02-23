@@ -4,6 +4,7 @@ Maybe learn how to make better use of obsidian? What are other folks doing? Mayb
 > - [ ] #task Experiment with https://stephango.com/vault setup, especially [Dataview plugin](https://github.com/blacksmithgu/obsidian-dataview)
 > - [ ] #task Research how other people use the Tasks plugin
 > - [ ] #task Contribute to Obsidian (https://stephango.com/quality-software)
+> - [ ] #task Try? https://github.com/platers/obsidian-linter
 
 - https://www.swyx.io/obsidian-brain
 - https://www.ssp.sh/blog/obsidian-note-taking-workflow/
