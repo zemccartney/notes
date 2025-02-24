@@ -10,6 +10,19 @@
 	"editor.guides.bracketPairs": "active",
 	"editor.minimap.enabled": false,
   	"colorize.decoration_type": "dot",
+	"colorize.languages": [
+		"css",
+		"html",
+		"javascript",
+		"javascriptreact",
+		"json",
+		"jsonc",
+		"postcss",
+		"svg",
+		"typescript",
+		"typescriptreact",
+		"xml"
+	],
 	"highlight-matching-tag.styles": {
 	    "opening": {
 			"name": {
