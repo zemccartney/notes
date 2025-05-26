@@ -1,0 +1,10 @@
+---
+source: https://www.citationneeded.news/free-and-open-access-in-the-age-of-generative-ai/
+author: Molly White
+---
+> The true threat from AI models training on open access material is not that more people may access knowledge thanks to new modalities. It's that those models may stifle Wikipedia and other free knowledge repositories, benefiting from the labor, money, and care that goes into supporting them while also bleeding them dry. It's that trillion dollar companies become the sole arbiters of access to knowledge after subsuming the painstaking work of those who made knowledge free to all, killing those projects in the process.
+
+
+> Anyone at an AI company who stops to think for half a second should be able to recognize they have a vampiric relationship with the commons. While they rely on these repositories for their sustenance, their adversarial and disrespectful relationships with creators reduce the incentives for anyone to make their work publicly available going forward (freely licensed or otherwise). They drain resources from maintainers of those common repositories often without any compensation. They reduce the visibility of the original sources, leaving people unaware that they can or should contribute towards maintaining such valuable projects. AI companies should want a thriving open access ecosystem, ensuring that the models they trained on Wikipedia in 2020 can be continually expanded and updated. Even if AI companies don't care about the benefit to the common good, it shouldn't be hard for them to understand that by bleeding these projects dry, they are destroying their own food supply.
+
+Also linked to https://www.eff.org/deeplinks/2025/02/ai-and-copyright-expanding-copyright-hurts-everyone-heres-what-do-instead, which wasn't a great piece, but drove home the point that regulation based on copyright favors entities wealthy enough to pay for access i.e. limiting licensing to the same large companies that have already limited competition.

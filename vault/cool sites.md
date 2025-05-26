@@ -26,3 +26,4 @@
 	- From https://press.stripe.com/ (so cool, build own bookshelf like this?)
 - https://jurassicsystems.com/
 - https://stylestage.dev/styles/manual/
+- https://truisms.ginatrapani.org/
