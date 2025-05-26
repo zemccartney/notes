@@ -6,11 +6,35 @@
 	a = add
 	s = status
 	c = commit
-	d = -c diff.external=difft diff -- . ':!package-lock.json'
+	d = -c diff.external='difft --syntax-highlight off' diff -- ':!package-lock.json'
 	sw = switch
+	sn = switch -c
+	ki = checkout --
+	p = pull
+
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
 
 [push]
 	autoSetupRemote = true
+	followTags = true
 
 [pull]
 	ff = only
+  
+[column]
+  	ui = auto
+
+[branch]
+  	sort = -committerdate
+
+[tag]
+	sort = version:refname
+
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true

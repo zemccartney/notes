@@ -1,6 +1,7 @@
 {
 	"window.autoDetectColorScheme": true,
 	"window.zoomLevel": 1,
+	"workbench.editor.enablePreview": false,
 	"workbench.preferredDarkColorTheme": "Noctis Obscuro",
 	"workbench.preferredLightColorTheme": "Noctis Lilac",
 	"workbench.iconTheme": "vscode-icons",

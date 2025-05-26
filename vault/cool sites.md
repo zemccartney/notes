@@ -20,4 +20,9 @@
 - https://modernfontstacks.com/ 
 - https://danklammer.com/about/ 
 	- love the resume example
-
+- https://jackieis.online/
+- https://thehtml.review/04/ **SO COOL**
+- https://www.stripe.press/scaling
+	- From https://press.stripe.com/ (so cool, build own bookshelf like this?)
+- https://jurassicsystems.com/
+- https://stylestage.dev/styles/manual/

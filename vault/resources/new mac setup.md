@@ -71,6 +71,8 @@ Sources:
 		- [ ] [vs code icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 		- [ ] [colorize](https://marketplace.cursorapi.com/items?itemName=kamikillerto.vscode-colorize)
 		- [ ] [svg preview](https://marketplace.cursorapi.com/items?itemName=SimonSiefke.svg-preview)
+		- [ ] [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+		- [ ] [Image Gallery](https://marketplace.visualstudio.com/items?itemName=GeriYoco.vscode-image-gallery)
 	- [ ] install Iosevka font: https://github.com/be5invis/Iosevka/releases (followed steps here: https://support.apple.com/guide/font-book/install-and-validate-fonts-fntbk1000/mac)
 	- [ ] settings
 
