@@ -1,0 +1,2 @@
+- https://www.artsy.net/artwork/andrew-kuo-days-baseball-field
+- https://www.cartoonbrew.com/feature-film/the-ten-filmmaking-rules-of-la-casa-lobo-2018s-most-gonzo-stop-motion-feature-165108.html 

@@ -1,5 +1,6 @@
 ---
 source: https://www.theverge.com/the-vergecast/608189/elon-musk-doge-coup-goverment-vergecast
+author: The Verge
 ---
 From Nilay Patel:
 

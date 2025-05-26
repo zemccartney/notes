@@ -6,9 +6,18 @@
 - https://lynnandtonic.com/archive/
 	- https://lynnandtonic.com/archive/2022/
 	- https://lynnandtonic.com/thoughts/entries/ten-years-of-a-single-div/
+	- https://a.singlediv.com/
 	- https://codepen.io/lynnandtonic/pen/LYGjqOo
 	- https://css-tricks.com/very-extremely-practical-css-art/
 - https://typeof.net/Iosevka/
 - https://joshcollinsworth.com/
 - https://terkel.com/
 - https://www.rasmusnielsen.dk/
+- https://noirblancrouge.com/
+- https://theamazingthundercat.com/
+- https://pluie.me/
+	- love the icons at the bottom / tech categories in general
+- https://modernfontstacks.com/ 
+- https://danklammer.com/about/ 
+	- love the resume example
+

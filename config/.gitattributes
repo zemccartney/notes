@@ -1,0 +1,4 @@
+# TODO Fill in, try other directives
+# https://stackoverflow.com/questions/28026767/where-should-i-place-my-global-gitattributes-file
+# https://github.com/gitattributes/gitattributes/blob/master/Web.gitattributes
+package-lock.json -diff

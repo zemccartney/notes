@@ -1,9 +1,12 @@
 {
 	"window.autoDetectColorScheme": true,
 	"window.zoomLevel": 1,
-	"workbench.preferredDarkColorTheme": "Noctis",
-	"workbench.preferredLightColorTheme": "Noctis Lux",
+	"workbench.preferredDarkColorTheme": "Noctis Obscuro",
+	"workbench.preferredLightColorTheme": "Noctis Lilac",
 	"workbench.iconTheme": "vscode-icons",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
 	"editor.fontFamily": "Iosevka, monospace",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 14,
@@ -29,6 +32,5 @@
 				"underline": "magenta"
 			}
 		}
-	},
-	"svgPreview.autoOpen": true
+	}
 }
