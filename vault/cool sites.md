@@ -27,3 +27,5 @@
 - https://jurassicsystems.com/
 - https://stylestage.dev/styles/manual/
 - https://truisms.ginatrapani.org/
+- https://www.future-fonts.com/
+- https://hypertext.tv/ **HOLY SHIT**
