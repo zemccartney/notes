@@ -29,3 +29,10 @@
 - https://truisms.ginatrapani.org/
 - https://www.future-fonts.com/
 - https://hypertext.tv/ **HOLY SHIT**
+- PORTLAND
+	- https://ounlidos.com/
+	- https://pelletfactory.com/
+	- https://www.congtubot.com/
+- BLOGROLL
+	- https://indieblog.page/
+	- https://personalsit.es/
