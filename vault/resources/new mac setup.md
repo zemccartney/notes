@@ -21,23 +21,16 @@ Took inspiration / copied from:
 		- [ ] [lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 		- [ ] [colorzilla](https://www.colorzilla.com/chrome/)
 		- [ ] [wave eval tool]https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
-- [ ] ghostty
-	- [ ] ssh fix https://ghostty.org/docs/help/terminfo#configure-ssh-to-fall-back-to-a-known-terminfo-entry
-		- [ ] check ssh connections, add `SetEnv TERM=xterm-256color` for broken Linux sessions (manifests as backspace adding spaces)
-	- [ ] configure (From root: `mkdir -p .config/ghostty` and add the following)
-    
-```reference
-
-path: '@/../config/ghostty/config'
-
-```
-
 - [ ] download logi options +, set mouse tracking and scrolling speeds to 100% (for now; b/c using logitech hardware, app is only way to change settings of devices; outright piracy, such horseshit, need to move away from logitech hardware entirely)
 - [ ] homebrew
 	- [ ] don't forget to follow instructions to add to path (printed by brew installation)
+- [ ] https://eza.rocks/
+- [ ] https://github.com/sharkdp/fd
+- [ ] uv, with completions for uv and uvx
 - [ ] Install node
 	- [ ] https://github.com/Schniz/fnm
 		- [ ] on 2/15/2025: ran into issue with fnm, turned out to be incorrect installation path: https://github.com/Schniz/fnm/issues/824
+	- [ ] set up npm completions
 - [ ] [ommwriter](https://ommwriter.com/) (needs to copied, single installation per license)
 - [ ] git
 	- [ ] create ssh key, add to github: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent

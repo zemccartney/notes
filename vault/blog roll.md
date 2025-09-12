@@ -12,3 +12,5 @@
 - https://stephango.com/
 - https://maggieappleton.com/
 	- https://github.com/MaggieAppleton/maggieappleton.com-V3
+- https://indieblog.page/
+- https://personalsit.es/

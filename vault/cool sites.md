@@ -33,6 +33,3 @@
 	- https://ounlidos.com/
 	- https://pelletfactory.com/
 	- https://www.congtubot.com/
-- BLOGROLL
-	- https://indieblog.page/
-	- https://personalsit.es/

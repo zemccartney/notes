@@ -1,0 +1,7 @@
+font-size = 20
+
+auto-update = check
+
+font-family="Iosevka Term"
+
+theme=catppuccin-mocha
