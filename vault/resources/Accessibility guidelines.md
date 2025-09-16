@@ -1,0 +1,3 @@
+- avoid target="_blank"
+	- https://www.w3.org/WAI/WCAG21/Techniques/general/G201
+	- https://css-tricks.com/use-target_blank/

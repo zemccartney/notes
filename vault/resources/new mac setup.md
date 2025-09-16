@@ -11,11 +11,17 @@ Took inspiration / copied from:
 	- [ ] disable icloud sync (in settings > apple id > icloud)
 	- [ ] delete as many apple apps as allowed
 	- [ ] clean up dock
+	- [ ] register [Terminal profile](../../config/terminal/DarkOcean.terminal)
 - [ ] docker
+	- [ ] set up [completions](https://docs.docker.com/engine/cli/completion/)
 - [ ] obsidian
 - [ ] chrome
 	- [ ] settings
 		- [ ] enable memory saver
+	- [ ] dev tools
+		- [ ] check on settings > preferences > Elements
+			- [ ] show user agent shadow DOM
+			- [ ] Show rulers on hover
 	- [ ] extensions
 		- [ ] [react dev tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 		- [ ] [lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
@@ -66,6 +72,8 @@ Sources:
 		- [ ] [svg preview](https://marketplace.cursorapi.com/items?itemName=SimonSiefke.svg-preview)
 		- [ ] [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
 		- [ ] [Image Gallery](https://marketplace.visualstudio.com/items?itemName=GeriYoco.vscode-image-gallery)
+		- [ ] [container tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers)
+		- [ ] [remote dev pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 	- [ ] install Iosevka font: https://github.com/be5invis/Iosevka/releases (followed steps here: https://support.apple.com/guide/font-book/install-and-validate-fonts-fntbk1000/mac)
 	- [ ] settings
 
