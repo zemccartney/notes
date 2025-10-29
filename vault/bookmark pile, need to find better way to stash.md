@@ -1,0 +1,7 @@
+- https://theoatmeal.com/comics/ai_art
+- https://kidpix.app/
+- https://pangeasoft.net/mightymike/
+	- https://github.com/jorio/MightyMike?tab=readme-ov-file
+- https://www.jeantinland.com/
+	- should have screenshots of your work on your profile pieces 
+	- follow CSS gallery?
